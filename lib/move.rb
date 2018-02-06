@@ -11,6 +11,7 @@ def input_to_index(string)
   string.to_i - 1
 end
 
+board = [" ", " ", " "]
 def move(array,index,value)
   array[index] = value
 end
