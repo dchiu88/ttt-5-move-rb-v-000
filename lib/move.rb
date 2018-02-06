@@ -11,7 +11,7 @@ def input_to_index(string)
   string.to_i - 1
 end
 
-board = [" ", " ", " "]
-def move(array,index,value)
+
+def move(array,index,"X")
   array[index] = value
 end
